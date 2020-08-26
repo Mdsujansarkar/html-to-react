@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {Link} from 'react-router-dom';
 class Header extends React.Component {
     render(){
         return(
@@ -8,9 +9,9 @@ class Header extends React.Component {
                         <div class="header d-lg-flex justify-content-between align-items-center">
                             <div class="header-agile">
                                 <h1>
-                                    <a class="navbar-brand logo" href="index.html">
+                                    <Link to="/" class="navbar-brand logo">
                                         <span class="fa fa-scissors" aria-hidden="true" ></span> Men spa	<span class="fa fa-user-secret" aria-hidden="true" ></span>
-                                    </a>
+                                    </Link>
                                 </h1>
                             </div>
                             <div class="nav_w3ls">
@@ -18,8 +19,17 @@ class Header extends React.Component {
                                     <label for="drop" class="toggle mt-lg-0 mt-1"><span class="fa fa-bars" aria-hidden="true"></span></label>
                                     <input type="checkbox" id="drop" />
                                     <ul class="menu">
-                                        <li class="mr-lg-3 mr-2 active"><a href="index.html">Home</a></li>
-                                        <li class="mr-lg-3 mr-2"><a href="about.html">About </a></li>
+                                        <li class="mr-lg-3 mr-2 active">
+                                            <Link to="/">
+                                                Home
+                                            </Link>
+                            
+                                        </li>
+                                        <li class="mr-lg-3 mr-2">
+                                            <Link to="/about">
+                                                About
+                                            </Link>
+                                        </li>
                                         <li class="mr-lg-3 mr-2 p-0">
 
                                             <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
@@ -30,8 +40,16 @@ class Header extends React.Component {
                                                 <li><a href="single.html">See more</a></li>
                                             </ul>
                                         </li>
-                                        <li class="mr-lg-3 mr-2"><a href="gallery.html">Gallery</a></li>
-                                        <li class="mr-lg-3 mr-2"><a href="contact.html">Contact Us</a></li>
+                                        <li class="mr-lg-3 mr-2">
+                                            <Link to="/gallery">
+                                                Gallery
+                                            </Link>
+                                        </li>
+                                        <li class="mr-lg-3 mr-2">
+                                            <Link to="/contact">
+                                                Contact
+                                            </Link>
+                                        </li>
                                     </ul>
                                 </nav>
                             </div>

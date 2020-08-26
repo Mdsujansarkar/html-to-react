@@ -21,7 +21,6 @@ function App() {
           <Route path='/gallery' component={Gallery} />
           <Route path='/services' component={Services} />
         </Switch>
-        <Home />
         <Footer />
       </Router>
     </div>
