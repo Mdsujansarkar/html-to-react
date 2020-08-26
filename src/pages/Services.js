@@ -9,7 +9,9 @@ class Gallery extends React.Component {
                 <div class="breadcrumb-agile">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <Link to="/">
+                                Home
+                            </Link>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">Services</li>
                     </ol>
@@ -64,7 +66,7 @@ class Gallery extends React.Component {
                                     <h3 class="mt-md-4 mt-3"> Abraham Smith</h3>
 
                                     <div class="test-img text-center mb-3">
-                                        <img src="images/test1.jpg" class="img-fluid" alt="user-image" />
+                                        <img src="assets/images/test1.jpg" class="img-fluid" alt="user-image" />
                         </div>
                                         <div class="mobl-footer test-soc text-center">
                                             <ul class="list-unstyled">
@@ -89,7 +91,7 @@ class Gallery extends React.Component {
                                         <p>Lorem Ipsum has been the industry's standard since the 1500s. Praesent ullamcorper dui turpis.</p>
                                         <h3 class="mt-md-4 mt-3"> Mariana Noe</h3>
                                         <div class="test-img text-center mb-3">
-                                            <img src="images/test2.jpg" class="img-fluid" alt="user-image" />
+                                        <img src="assets/images/test2.jpg" class="img-fluid" alt="user-image" />
                         </div>
                                             <div class="mobl-footer test-soc text-center">
                                                 <ul class="list-unstyled">

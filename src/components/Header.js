@@ -33,7 +33,7 @@ class Header extends React.Component {
                                         <li class="mr-lg-3 mr-2 p-0">
 
                                             <label for="drop-2" class="toggle">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span> </label>
-                                            <a>Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
+                                            <a href="#">Dropdown <span class="fa fa-angle-down" aria-hidden="true"></span></a>
                                             <input type="checkbox" id="drop-2" />
                                             <ul class="inner-dropdown">
                                                 <li>
