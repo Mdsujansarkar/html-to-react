@@ -6,6 +6,7 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Gallery from './pages/Gallery';
 import Services from './pages/Services';
+import Single from './pages/Single';
 import Footer from './components/Footer';
 import {BrowserRouter as Router,Route,Switch} from 'react-router-dom';
 
@@ -20,6 +21,7 @@ function App() {
           <Route path='/contact' component={Contact} />
           <Route path='/gallery' component={Gallery} />
           <Route path='/services' component={Services} />
+          <Route path='/single' component={Single} />
         </Switch>
         <Footer />
       </Router>

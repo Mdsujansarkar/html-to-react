@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 class About extends React.Component {
     render() {
         return (
@@ -9,7 +10,9 @@ class About extends React.Component {
                 <div class="breadcrumb-agile">
                     <ol class="breadcrumb mb-0">
                         <li class="breadcrumb-item">
-                            <a href="index.html">Home</a>
+                            <Link to="/">
+                                Home
+                            </Link>
                         </li>
                         <li class="breadcrumb-item active" aria-current="page">About Us</li>
                     </ol>

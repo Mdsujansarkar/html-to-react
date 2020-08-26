@@ -45,42 +45,42 @@ class Gallery extends React.Component{
                             
                 <div id="gal1" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g1.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/images/g1.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
                               
                 <div id="gal2" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g2.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/images/g2.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
                                 
                 <div id="gal3" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g3.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/images/g3.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
                               
                 <div id="gal4" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g4.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/assets/images/g4.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
                              
                 <div id="gal5" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g5.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/images/g5.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
                                 
                 <div id="gal6" class="popup-effect">
                                                         <div class="popup">
-                                    <img src="images/g6.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
+                                    <img src="assets/images/g6.jpg" alt="Popup image" class="assets/img-fluid mt-4" />
                                                             <a class="close" href="#gallery">&times;</a>
                                                         </div>
                                                     </div>
